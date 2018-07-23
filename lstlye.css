@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+*{
+    font-family: 'PT+Sans';
+}
+body{
+background:url(com.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background-color:rgba(11, 96, 192, 0.6);
+    margin:5% auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center; 
+    
+    }
+    input[type="text"],input[type="password"],
+    .container a{
+        padding: 6px 40px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    }
+    .container a{
+        text-decoration: none;
+        color:white;
+        background-color: orangered;
+        border: none;
+    }
+    .container a:hover{
+        background-color: orange;
+    }
+    .container p{
+        color: white;
+        font-size: 30px;
+    }
+    .container h1{
+        color: white;
+
+    }
+    #join{
+        position:relative;
+        top: -10%;
+     }
