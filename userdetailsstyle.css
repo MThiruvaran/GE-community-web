@@ -2,7 +2,8 @@
     font-family: 'Rubik', sans-serif;
 }
 body{
-    background:rgb(44, 109, 214);
+    background:url(user\ detail\ bg.jpg);
+    background-size: cover;
 }
 .container{
     position: absolute;
@@ -11,23 +12,38 @@ body{
     transform: translate(-50%, -50%);
     width:98vw;
     height:85vh;
-    background-color: white;
-    box-sizing: border-box;
-    box-shadow: 0 2px 5px black;
     font-size: 20px;
-    
+}
+.dp{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background:url(user\ sample.jpeg);
+    background-size: cover;
+    top: 4%;
+    left:10px;
 }
 
 .details{
+
+    align-content: center;
+    align-items: center;
+    text-align: justify;
     position: relative;
-    width: 50%;
+    width: 48%;
     height: 100%;
     float: left;
+    background-color:transparent;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 0 2px 5px black;
 }
-.details label, .details button  {
+.details label, .details button, .details b {
     font-size: 20px;
     padding: 10px;
     margin-top: 10px;
+    color: white;
     
 }
 .details input{
@@ -42,7 +58,7 @@ body{
 .details button{
     position: relative;
     left:10px;
-     background-color: rgb(34, 106, 240);
+     background-color: rgb(245, 92, 31);
      border: none;
     border-radius: 5px;
     padding: 5px;
@@ -56,3 +72,4 @@ body{
     height: 98%;
     border-radius: 10px;
 }
+
