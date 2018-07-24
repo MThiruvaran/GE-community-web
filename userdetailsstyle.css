@@ -1,3 +1,6 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
 body{
     background:rgb(44, 109, 214);
 }
@@ -11,4 +14,45 @@ body{
     background-color: white;
     box-sizing: border-box;
     box-shadow: 0 2px 5px black;
+    font-size: 20px;
+    
+}
+
+.details{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.details label, .details button  {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.details input{
+    padding: 5px;
+    margin: 10px;
+    background-color:rgb(209, 209, 209);
+    border: none;
+    border-radius: 2px;
+    
+
+}
+.details button{
+    position: relative;
+    left:10px;
+     background-color: rgb(34, 106, 240);
+     border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#map{
+    
+    position: relative;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
 }

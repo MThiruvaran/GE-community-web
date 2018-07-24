@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 *{
-    font-family: 'PT+Sans';
+    font-family: 'Rubik', sans-serif;
 }
 body{
     background: url(background.jpg);
@@ -16,7 +15,7 @@ body{
     background: rgb(253, 93, 0);
     border: none;
     padding: 5px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 5px; 
 }
 #login a:hover{
