@@ -2,8 +2,9 @@
     font-family: 'Rubik', sans-serif;
 }
 body{
-background:url(com.jpg);
-background-size: cover;
+/* background:url(com.jpg); */
+background: url(bd\ log\ sign.png);
+background-size: 100vw 100vh;
 background-repeat: no-repeat;
 }
 .container{
@@ -13,8 +14,8 @@ background-repeat: no-repeat;
     transform: translate(-50%,-50%);
     width: 400px;
     height: 400px;
-    background-color:rgba(11, 96, 192, 0.6);
-    margin:5% auto;
+    /* background-color:rgba(11, 96, 192, 0.6); */
+    background-color:rgba(1, 5, 5, 0.849);
     box-sizing: border-box;
     border-radius: 5px;
     align-items: center;

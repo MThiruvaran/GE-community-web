@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="userdetailsstyle.css">
+    <link rel="stylesheet" href="viewpro.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -12,30 +12,25 @@
    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
    crossorigin=""></script>
-   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-   <script src="login.js"></script>
-    <title>User info</title>
+    
+    <title>User profile</title>
 </head>
 <body>
     <form >
     <div class="container">
-         
         <div class="details">
-          
-         <label for="name">Name:</label>
-         <br> <input type="text" placeholder="first name" name="name"><input type="text" placeholder="last name" name="name">
-         <br> <label for="gender">Gender:</label>
-         <br> <input type="text" name="gender">
-         <br> <label for="mobile">Contact number:</label>
-         <br> <input type="number" name="mobile">
-         <br> <label for="city">City:</label>
-         <br> <input type="text" name="city">
-         <br> <button>Your location</button>
-         <br> <input type="checkbox"><b>I want to learn</b>       
-         <br> <input type="checkbox"><b>I want to teach</b>
-         <br> <input type="checkbox"><b>I want to learn and teach</b>
-         <br> <b>Profile picture:</b>
-         <div class="dp"></div>
+        <div class="dp"></div>
+        <br><br><label for="name">Name:</label>
+        <b>Thiruvaran.M</b>
+        <br><label for="gender">Gender:</label>
+        <b>Male</b>
+        <br><label for="mobile">Contact number:</label>
+        <b>9952862482</b>
+        <br><label for="city">City:</label>
+        <b>pondicherry</b>
+        <br><b>Status:</b>
+        <b>Learner</b>
+        <br><a href="userdetails.html">Edit Profile</a>
         </div>
         <div class="details">
             <div id="map">
@@ -52,18 +47,6 @@
         </div>
        </div>
     </form>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyC0GjsJ0xr0mMeNuZ1Rn77P3mH2fmOmWaI",
-    authDomain: "metutthiru.firebaseapp.com",
-    databaseURL: "https://metutthiru.firebaseio.com",
-    projectId: "metutthiru",
-    storageBucket: "",
-    messagingSenderId: "202671224806"
-  };
-  firebase.initializeApp(config);
-</script>
 </body>
 </html>
 <!-- App ID

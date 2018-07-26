@@ -3,7 +3,7 @@
 }
 body{
     background:url(user\ detail\ bg.jpg);
-    background-size: 100vw 100vh;
+    background-size:100vw 100vh;
 }
 .container{
     position: absolute;
@@ -18,10 +18,10 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    background:url(sample\ user.jpg);
+    background: url(user\ dp.jpeg);
     background-size: cover;
     top: 4%;
-    left:10px;
+    left:20px;
 }
 
 .details{
@@ -39,29 +39,11 @@ body{
     margin-left: 1%;
     box-shadow: 0 2px 5px black;
 }
-.details label, .details button, .details b {
-    font-size: 20px;
+.details label, .details b{
+    font-size: 30px;
     padding: 10px;
-    margin-top: 10px;
-    color: white;
-    
-}
-.details input{
-    padding: 5px;
-    margin: 10px;
-    background-color:rgb(209, 209, 209);
-    border: none;
-    border-radius: 2px;
-    
-
-}
-.details button{
-    position: relative;
-    left:10px;
-     background-color: rgb(245, 92, 31);
-     border: none;
-    border-radius: 5px;
-    padding: 5px;
+    color: white;   
+    margin-left: 10px;
 }
 #map{
     
@@ -72,4 +54,12 @@ body{
     height: 98%;
     border-radius: 10px;
 }
-
+a{ 
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;  
+    margin-left: 10px;
+    margin-top: 10px;
+}
